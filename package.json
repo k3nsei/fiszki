@@ -1,0 +1,32 @@
+{
+  "name": "fiszki",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vue-tsc -b && vite build",
+    "dev": "vite",
+    "format:check": "prettier --check --ignore-unknown .",
+    "format:write": "prettier --write --ignore-unknown .",
+    "prepare": "git config core.hookspath .githooks || true",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "prettier": "3.4.2",
+    "prettier-plugin-packagejson": "^2.5.6",
+    "prettier-plugin-sh": "^0.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  },
+  "packageManager": "pnpm@9.15.2",
+  "volta": {
+    "node": "22.12.0",
+    "pnpm": "9.15.2"
+  }
+}
